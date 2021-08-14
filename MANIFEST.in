@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qrcode_gen *.css
+recursive-include qrcode_gen *.csv
+recursive-include qrcode_gen *.html
+recursive-include qrcode_gen *.ico
+recursive-include qrcode_gen *.js
+recursive-include qrcode_gen *.json
+recursive-include qrcode_gen *.md
+recursive-include qrcode_gen *.png
+recursive-include qrcode_gen *.py
+recursive-include qrcode_gen *.svg
+recursive-include qrcode_gen *.txt
+recursive-exclude qrcode_gen *.pyc
