@@ -173,6 +173,14 @@ user_data_fields = [
 # 	"qrcode_gen.auth.validate"
 # ]
 
+# for v14
+jenv = {
+	"methods": [
+		"gen_qrcode:qrcode_gen.qrcode.gen_qrcode"
+	]
+}
+
+# for v15
 jinja = {
 	"methods": [
 		"qrcode_gen.qrcode.gen_qrcode"
